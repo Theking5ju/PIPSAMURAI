@@ -1065,7 +1065,9 @@ font-size: 0.3rem;
         content: '✔'; 
     color: green;}
 }
-
+.pryc{ overflow: hidden;
+width:90%;
+font-size: 1rem;
 }
 /*  end CHAT*/
 
