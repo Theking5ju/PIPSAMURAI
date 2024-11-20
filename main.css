@@ -994,6 +994,9 @@ width: 45ch;
        font-size: 1rem;
   
 }
+    .SASB p::before {
+        content: '✔'; 
+    color: green;}
 }
 
 /*  end signals and setuips*/
@@ -1058,6 +1061,10 @@ overflow: hidden;
 width:90%;
 font-size: 0.3rem;
     }
+  .CHATB p::before {
+        content: '✔'; 
+    color: green;}
+}
 
 }
 /*  end CHAT*/
