@@ -746,12 +746,7 @@ transition: 0.4s;
  
     /*end phone*/
     
-  .section3 {
- 
-    place-items: center;
-   height: 75vh;
-    text-align: center;
-  }
+
  p9{
    opacity: 0%;
  }
@@ -777,7 +772,12 @@ transition: 0.4s;
     text-align: center;
     border-radius: 3em;
 }
-
+  .section3 {
+ 
+    place-items: center;
+   height: 75vh;
+    text-align: center;
+  }
 .section3 h1 {
     font-size: 2em;
     margin-bottom: 1em;
@@ -787,7 +787,7 @@ transition: 0.4s;
     font-size: 0.9em;
     margin-bottom: 1.5em;
     line-height: 1.6;
-    width: 45ch;
+    
 }
 
 .slides{
@@ -902,8 +902,11 @@ transition: 0.4s;
         padding: 0.8em 0;
     }
 }
-
-
+@media screen and (min-width: 768px) {
+    .section3 p{
+width: 45ch;
+    }
+}
  /* slides last row*/
 
 
